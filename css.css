@@ -1,0 +1,25 @@
+:root {
+  --blue: #1a6ecc;
+  --blue-bright: #4db8ff;
+  --blue-mid: #2d8cf0;
+  --blue-dark: #0a2a5e;
+  --blue-deeper: #051430;
+  --blue-glow: rgba(77,184,255,0.45);
+  --blue-glow-soft: rgba(45,140,240,0.25);
+  --black: #040810;
+  --dark: #060d1a;
+  --dark2: #0a1526;
+  --dark3: #0f1e35;
+  --navy: #0d1b2e;
+  --white: #ffffff;
+  --grey: #7a9bbf;
+  --light-grey: #b0d0f0;
+  --wave-cyan: #ff3fa4;
+  --pink-glow: rgba(255,63,164,0.4);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Exo 2', sans-serif; background: var(--dark); color: var(--white); overflow-x: hidden; cursor: none; }
+
+/* ... Restante código CSS das classes (.hero, .btn, .card, etc.) ... */
